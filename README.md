@@ -1,4 +1,4 @@
-# IBM Watson NLP Demo :robot: 
+# IBM Watson NLP Demo 
 This application demo's IBM Watson *Natural Language Understanding* APIs. Learn more about IBM Watson's APIs here: https://www.ibm.com/cloud-computing/bluemix/watson
 
 :information_source: API Reference: https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/
