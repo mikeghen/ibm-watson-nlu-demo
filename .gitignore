@@ -17,6 +17,9 @@ coverage
 # API keys
 .env
 
+# Database
+dev.sqlite3
+
 # Dependency directory
 node_modules
 bower_components
