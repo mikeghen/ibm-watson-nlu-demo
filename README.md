@@ -37,8 +37,8 @@ This application is designed to support experimenting with IBM Watson APIs. Here
 
 Facebook and Twitter authentication has been implemented on the `labs` branch to help with these two labs.
 
-## :microscope: Analyze the contents of Tweets
-## :microscope: Analyze the contents of your Facebook posts
+### :microscope: Analyze the contents of Tweets
+### :microscope: Analyze the contents of your Facebook posts
 
 
 # Credits: This app started from Mega Boilerplate App (Node.js)
