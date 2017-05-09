@@ -58,6 +58,10 @@ app.get('/reset/:token', userController.resetGet);
 app.post('/reset/:token', userController.resetPost);
 app.get('/logout', userController.logout);
 app.get('/unlink/:provider', userController.ensureAuthenticated, userController.unlink);
+app.get('/auth/facebook', passport.authenticate('facebook', { scope: ['email', 'user_location'] }));
+app.get('/auth/facebook/callback', passport.authenticate('facebook', { successRedirect: '/', failureRedirect: '/login' }));
+app.get('/auth/twitter', passport.authenticate('twitter'));
+app.get('/auth/twitter/callback', passport.authenticate('twitter', { successRedirect: '/', failureRedirect: '/login' }));
 
 // Production error handler
 if (app.get('env') === 'production') {
