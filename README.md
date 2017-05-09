@@ -34,7 +34,7 @@ The app runs on `http://localhost:3000`.
 # Labs
 This application is designed to support experimenting with IBM Watson APIs. Here are some sample labs.
 
-Facebook and Twitter authentication has been implemented so you can use it in these labs.
+Facebook and Twitter authentication has been implemented on the `labs` branch to help with these two labs.
 
 ## :microscope: Analyze the contents of Tweets
 ## :microscope: Analyze the contents of your Facebook posts
