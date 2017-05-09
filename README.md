@@ -1,4 +1,4 @@
-# IBM Watson NLP Demo 
+# IBM Watson NLP Demo
 This application demo's IBM Watson *Natural Language Understanding* APIs. Learn more about IBM Watson's APIs here: https://www.ibm.com/cloud-computing/bluemix/watson
 
 :information_source: API Reference: https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/
@@ -30,6 +30,15 @@ npm start
 ```
 
 The app runs on `http://localhost:3000`.
+
+# Labs
+
+This application is designed to support experimenting with IBM Watson APIs. Here are some sample labs.
+
+Facebook and Twitter authentication has been implemented on the `labs` branch to help with these two labs.
+
+## :microscope: Analyze the contents of Tweets
+## :microscope: Analyze the contents of your Facebook posts
 
 
 # Credits: This app started from Mega Boilerplate App (Node.js)
