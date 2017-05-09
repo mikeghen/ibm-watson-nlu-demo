@@ -22,9 +22,6 @@ Go to the **Catalog** and select *Services > Watson > Natural Language Understan
 
 Wait while Bluemix provisions your instance then get the credentials from **Service Credentials** and then select *View Credentials*. Add them to the appropriate location in your `.env` file.
 
-## Step 6: Create SQLite Database
-Create a file `dev.sqlite` to serve as the applications database.
-
 ## Step 7: Run the application
 ```
 npm start
