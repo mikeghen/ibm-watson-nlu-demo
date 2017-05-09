@@ -211,15 +211,17 @@ used to inform approaches to health care, public health,
 and policy that affect the health and well-being of all.
 
   `;
+// Article Source:
+// https://www.researchgate.net/profile/Gabriela_Oates/publication/311652667_Advancing_the_Science_of_Health_Disparities_Through_Research_on_the_Social_Determinants_of_Health/links/5852c56608ae95fd8e1d71d8.pdf
 
   watson.understandText(text, function(response){
-    
-    console.log(response);
 
     res.render('home', {
       title: 'Home',
       keywords: response.keywords,
       entities: response.entities,
+      categories: response.categories, // Not implemented in UI
+      relations: response.relations,   // Not implemented in UI
       text: text
     });
 
